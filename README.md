@@ -1,5 +1,5 @@
 # golang_training
-Ngày 26/4/2022:
+Ngày 27/4/2022:
 Báo cáo công việc
   * TÌm hiểu và nắm được các kiểu dữ liệu trong Golang, các cú pháp khai báo
   * Nắm được cú pháp for, if/else
