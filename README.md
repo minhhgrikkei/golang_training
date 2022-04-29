@@ -14,3 +14,12 @@ Mục tiêu ngày mai:
   * Tiếp tục đến step 2
 
 Vấn đề mắc phải: chưa có
+
+Ngày 28/4/2022:
+Báo cáo công việc:
+  * Tìm hiểu về struct: Cách khai báo, tạo 1 struct. Kế thừa struct
+  * Tìm hiểu về con trỏ trong Golang
+  * Cách viết một file test và sử dụng go test ( ở phần project cards tại step 1 udemy)
+  * Hoàn thành project struct ở step 1 udemy
+
+Mục tiêu ngày mai, hoàn thành nốt các section ở step 1 udemy, tiếp tục tìm hiểu các kiến thức ở step 2
