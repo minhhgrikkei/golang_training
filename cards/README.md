@@ -7,7 +7,7 @@ Các kiến thức có trong project này:
   * Cách chạy file Golang bằng: go run
   * Cách tạo 1 function
   * Slice và Array. Phân biệt Slice và Array
-  * Vòn for
+  * Vòng for, if else
   * Cách lấy index và phần tử trong slice
   * Đọc ra vào file, cách dùng một số hàm ở package "io"
   * Cách sử dụng hàm rand ở pk "rand"
