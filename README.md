@@ -23,3 +23,4 @@ Báo cáo công việc:
   * Hoàn thành project struct ở step 1 udemy
 
 Mục tiêu ngày mai, hoàn thành nốt các section ở step 1 udemy, tiếp tục tìm hiểu các kiến thức ở step 2
+
