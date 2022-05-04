@@ -24,3 +24,7 @@ Báo cáo công việc:
 
 Mục tiêu ngày mai, hoàn thành nốt các section ở step 1 udemy, tiếp tục tìm hiểu các kiến thức ở step 2
 
+Ngày 4/5/2022:
+Báo cáo công việc:
+ * Hoàn thành porject Map, Interface và Channels and Go Routines từ step1 mọi mô tả dự án sẽ nằm trong mỗi thư mục
+Mục tiêu ngày mai: Tìm hiểu nâng cao hơn ở các step tiếp theo
