@@ -34,3 +34,10 @@ Báo cáo công việc:
  * TÌm hiểu thêm về goroutine và channel thông qua các link udemy ở lv 2 và lv3
  * Tìm hiểu về Select, Timeout,Ticker
 Mục tiêu ngày mai: Tìm hiểu về panic, difer,wait group các hàm có trong package "string"
+
+Ngày 6/5/2022
+Báo cáo công việc:
+ * Tìm hiểu về Buffer_Channel,Defer,Mutex,Panic,Point và Wait_Group
+ * Tìm hiểu CRUD thông qua project CRUD API ở trang https://www.youtube.com/watch?v=TkbhQQS3m_o
+Mục tiêu tới:
+ Tìm hiểu CRUD, GORM, MYSQL thông qua link : https://www.youtube.com/watch?v=1E_YycpCsXw&list=LL&index=1&t=311s
