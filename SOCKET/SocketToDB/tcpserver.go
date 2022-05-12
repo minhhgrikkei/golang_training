@@ -61,33 +61,22 @@ func main() {
 			fmt.Println(err)
 			return
 		}
-		go handle(con, users)
-		for {
-			u, ok := <-users
-			db.Create(&u)
-			if ok == false {
-				break
-			}
-			fmt.Println(u.Username)
-			fmt.Println(u.Email)
-		}
+		go handle(con, db)
 	}
 
 }
 
-func handle(con net.Conn, users chan user) {
+func handle(con net.Conn, db *gorm.DB) {
 	var u user
-	for {
-		data, err := bufio.NewReader(con).ReadString('\n')
-		if err != nil {
-			fmt.Println(err)
-			break
-		}
-		s := strings.Split(data, " ")
-
-		u.Username = s[0]
-		u.Email = s[1]
-		users <- u
+	data, err := bufio.NewReader(con).ReadString('\n')
+	if err != nil {
+		fmt.Println(err)
+		return
 	}
-	con.Close()
+	s := strings.Split(data, " ")
+
+	u.Username = s[0]
+	u.Email = s[1]
+	db.Create(&u)
+	handle(con, db)
 }
