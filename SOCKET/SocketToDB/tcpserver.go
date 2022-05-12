@@ -64,7 +64,7 @@ func main() {
 		go handle(con, users)
 		for {
 			u, ok := <-users
-			db.Create(u)
+			db.Create(&u)
 			if ok == false {
 				break
 			}
