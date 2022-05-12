@@ -6,6 +6,7 @@ import (
 	"fmt"
 	"net"
 	"os"
+	"time"
 )
 
 type user struct {
@@ -34,6 +35,7 @@ func main() {
 		data := user.Username + " " + user.Email + "\n"
 		fmt.Println(data)
 		con.Write([]byte(data))
+		time.Sleep(500 * time.Millisecond)
 	}
 	con.Close()
 }
